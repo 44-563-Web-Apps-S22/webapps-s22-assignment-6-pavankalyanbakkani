@@ -54,5 +54,34 @@ function checkGuess (){
 }
 </script>
 
+<div>
+
+<img src="Abbott's babbler.jpg" id="im" width="100" height="100" onclick="swapImage()">
+
+
+<script>
+    var useImage=1;
+    function swapImage(){
+        switch(useImage){
+            case 1:
+            document.getElementById('im').src="Abbott's babbler.jpg";
+            useImage=2;
+            break;
+            case 2:
+            document.getElementById('im').src="Black-Swift.jpg";
+            useImage=3;
+            break;
+            case 3:
+            document.getElementById('im').src="Kofiau Paradise Kingfisher.jpg";
+           useImage=1;
+            break;
+        }
+    }
+</script>
+</div>
+
+
+
+
 </body>
 </html> 
