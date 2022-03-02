@@ -4,6 +4,15 @@
         <title> Computer webpage </title>
     </head>
  
+
+    <style>
+      h2 {
+        background-color: green;
+        color: black;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    </style>
 <body>
 
 <h2>pavan kalyan bakkani orders a computer</h2>
@@ -27,12 +36,12 @@
   <br>
   <form>
     <label for="propertyname">Enter a property name </label>
-    <input type ="text" id="propertyname" name="propertyname" min=10 max=50 step=2 value="engraved"> <br><br>
+    <input type ="text" id="propertyname" name="propertyname" min=10 max=50 step=2 value="engraved"  style="background-color: aqua;"> <br><br>
 
     <label for="propertyvalue">Enter a value</label>
     <input type ="text" id="propertyvalue" name="propertyvalue" autofocus > <br> <br>
 
-    <input type="button" onclick="updateComputer()" value="Update the computer">
+    <input type="button" onclick="updateComputer()" value="Update the computer" style="background-color: greenyellow;">
 </form>
 <p id="result"></p>
 <br>
